@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import pickle 
 from PIL import Image
-img = Image.open("airplane_display.JPG")
+img = Image.open("airplane_display.jpg","rb")
 st.image(img,width = 200)
 
 
